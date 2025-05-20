@@ -1,0 +1,49 @@
+- name: rack
+  current: 2.6.4
+  type: website-href
+  url: https://vcvrack.com/Rack
+  match: 'RackFree-([0-9.]+)-lin-x64\.zip'
+
+- name: dwarffortress
+  current: 51_11
+  type: website-href
+  url: http://www.bay12games.com/dwarves
+  match: 'df_([0-9]+_[0-9]+)_linux'
+
+- name: wolfmame
+  current: wolf277
+  type: github
+  url: https://github.com/mahlemiut/wolfmame
+
+- name: nethack370
+  current: 035cd4377f28e8f8cc742f0a610324e36abe585d
+  type: github-snapshot
+  url: https://github.com/NetHack/NetHack
+
+- name: BlockstreamGreen
+  current: release_2.0.25
+  type: github
+  url: https://github.com/Blockstream/green_qt
+
+- name: minecraft
+  current: 1.21.5
+  type: website-text
+  url: https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs
+  match: 'Java Edition\s?([0-9]+\.[0-9]+\.[0-9]+)'
+
+# - name: curl
+#   current: 7.81.0
+#   type: github
+#   url: https://github.com/curl/curl
+
+# - name: mytool
+#   current: 1.2.0
+#   type: custom
+#   parser: MyTool::Checker
+
+# - name: nginx
+#   current: 1.18.0
+#   type: website-href
+#   url: https://nginx.org/en/download.html
+#   match: 'nginx-([0-9.]+)\.tar\.gz'
+
